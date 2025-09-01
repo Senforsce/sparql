@@ -1,0 +1,16 @@
+{
+    "name": "senforsce-sparql",
+    "version": "1.0.1",
+    "description": "Non-offcial Fuseki Docker image with GeoSPARQL support alongside Golang Utilities for interfacing",
+    "main": "index.js",
+    "repository": "git@github.com:Senforsce/sparql.git",
+    "author": "Senforsce",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+      "release": "changeset tag"
+    },
+    "devDependencies": {
+      "@changesets/cli": "^2.29.5"
+    }
+  }
